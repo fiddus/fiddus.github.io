@@ -1,0 +1,23 @@
+body{
+
+	background: rgb(59, 117, 170);
+}
+.container{
+	padding-top: 5%;
+	padding-bottom: 5%;
+	background: white;
+	border-radius: 0px 0px 9px 9px;
+	border: 2px solid #000000;
+	border-top: 0px solid #000000;
+	box-shadow: -1px -1px 34px 0px rgba(0,0,0,0.75);
+}
+li{
+	margin: 0 auto;
+	border: 2px dashed rgb(59, 117, 170);
+	padding: 5px;
+	width: 70%;
+	list-style-type: none;
+}
+h1{
+	color: rgb(59, 126, 139);
+}

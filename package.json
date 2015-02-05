@@ -1,0 +1,23 @@
+{
+  "name": "website",
+  "version": "0.0.0",
+  "description": "Fiddus Tecnologia Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fiddus/website.git"
+  },
+  "keywords": [
+    "fiddus",
+    "website"
+  ],
+  "author": "Vinicius Teixeira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fiddus/website/issues"
+  },
+  "homepage": "https://github.com/fiddus/website"
+}

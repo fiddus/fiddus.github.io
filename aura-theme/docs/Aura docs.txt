@@ -1,0 +1,6 @@
+HI,
+
+Please see docs-****.html pages, you can reach them by using main menu as well.
+docs-docs.html page contain docs pages map.
+
+Some components has no docs. We will add them in future.

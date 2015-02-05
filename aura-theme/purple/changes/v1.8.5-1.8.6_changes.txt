@@ -1,0 +1,28 @@
+
+//Recaptcha lib updated
+handlers/recaptcha-php-1.11/recaptchalib.php
+
+//Contact form handler updated to use new google captcha
+handlers/formContact.php
+
+//Contact form JS handler updated to use new google captcha
+scripts/pi.init.submitFormContact.js
+
+
+//New component added to bootstrap - "Scroll Spy"
+3dParty/bootstrap/js/bootstrap.js
+3dParty/bootstrap/js/bootstrap.min.js
+
+//Scroll Spy initialization script added
+scripts/pi.init.scrollSpy.js
+
+//Isotope updated to version 2.1.0
+3dParty/isotope/isotope.js
+
+
+//Fixed small js issue:
+scripts/pi.init.tab.js
+
+//Line 48
+-           if($el.length){
++           if($tabToShow.length){

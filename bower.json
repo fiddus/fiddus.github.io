@@ -1,0 +1,22 @@
+{
+  "name": "website",
+  "version": "v0.0.0",
+  "homepage": "https://github.com/fiddus/website",
+  "authors": [
+    "Vinicius Teixeira <vinicius0026@gmail.com>"
+  ],
+  "description": "Fiddus Tecnologia Website",
+  "main": "index.html",
+  "keywords": [
+    "fiddus",
+    "website"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

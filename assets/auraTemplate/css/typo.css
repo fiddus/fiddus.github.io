@@ -632,7 +632,7 @@ pre code {
   overflow-y: scroll;
 }
 .pi-section-base {
-  color: #e2f1f1;
+  color: #dceee4;
 }
 .pi-section-base h1,
 .pi-section-base .h1,
@@ -674,7 +674,7 @@ pre code {
 .pi-section-base .h5.pi-has-base-border:after,
 .pi-section-base h6.pi-has-base-border:after,
 .pi-section-base .h6.pi-has-base-border:after {
-  background: #0dc0c0;
+  background: #18ba60;
 }
 .pi-section-base h1.pi-has-bg:after,
 .pi-section-base .h1.pi-has-bg:after,
@@ -688,7 +688,7 @@ pre code {
 .pi-section-base .h5.pi-has-bg:after,
 .pi-section-base h6.pi-has-bg:after,
 .pi-section-base .h6.pi-has-bg:after {
-  background: url('../img/bg-heading-turquoise.png');
+  background: url('../img/bg-heading-green.png');
 }
 .pi-section-base h1 a.pi-link-dark,
 .pi-section-base .h1 a.pi-link-dark,
@@ -800,7 +800,7 @@ pre code {
   color: #fff;
 }
 .pi-section-base a.pi-link-no-style {
-  color: #e2f1f1;
+  color: #dceee4;
 }
 .pi-section-base a.pi-link-no-style:hover {
   color: #ffffff;
@@ -818,7 +818,7 @@ pre code {
   color: #fff;
 }
 .pi-section-base .pi-link-no-style a {
-  color: #e2f1f1;
+  color: #dceee4;
 }
 .pi-section-base .pi-link-no-style a:hover {
   color: #ffffff;
@@ -884,7 +884,7 @@ pre code {
 .pi-section-white .h5.pi-has-base-border:after,
 .pi-section-white h6.pi-has-base-border:after,
 .pi-section-white .h6.pi-has-base-border:after {
-  background: #0dc0c0;
+  background: #18ba60;
 }
 .pi-section-white h1.pi-has-bg:after,
 .pi-section-white .h1.pi-has-bg:after,
@@ -926,7 +926,7 @@ pre code {
 .pi-section-white .h5 a.pi-link-dark:hover,
 .pi-section-white h6 a.pi-link-dark:hover,
 .pi-section-white .h6 a.pi-link-dark:hover {
-  color: #03afaf;
+  color: #18ba60;
 }
 .pi-section-white h1 a.pi-link-white,
 .pi-section-white .h1 a.pi-link-white,
@@ -982,7 +982,7 @@ pre code {
 .pi-section-white .h5 a.pi-link-no-style:hover,
 .pi-section-white h6 a.pi-link-no-style:hover,
 .pi-section-white .h6 a.pi-link-no-style:hover {
-  color: #03afaf;
+  color: #18ba60;
 }
 .pi-section-white abbr,
 .pi-section-white acronym,
@@ -992,16 +992,16 @@ pre code {
   font-weight: 600;
 }
 .pi-section-white a {
-  color: #03afaf;
+  color: #18ba60;
 }
 .pi-section-white a:hover {
-  color: #008599;
+  color: #099555;
 }
 .pi-section-white a.pi-link-dark {
   color: #21252b;
 }
 .pi-section-white a.pi-link-dark:hover {
-  color: #03afaf;
+  color: #18ba60;
 }
 .pi-section-white a.pi-link-white {
   color: #fff;
@@ -1013,13 +1013,13 @@ pre code {
   color: #666e70;
 }
 .pi-section-white a.pi-link-no-style:hover {
-  color: #03afaf;
+  color: #18ba60;
 }
 .pi-section-white .pi-link-dark a {
   color: #21252b;
 }
 .pi-section-white .pi-link-dark a:hover {
-  color: #03afaf;
+  color: #18ba60;
 }
 .pi-section-white .pi-link-white a {
   color: #fff;
@@ -1031,7 +1031,7 @@ pre code {
   color: #666e70;
 }
 .pi-section-white .pi-link-no-style a:hover {
-  color: #03afaf;
+  color: #18ba60;
 }
 .pi-section-white .lead-20,
 .pi-section-white .lead-22,
@@ -1045,11 +1045,11 @@ pre code {
 }
 .pi-section-white a strong,
 .pi-section-white a b {
-  color: #03afaf;
+  color: #18ba60;
 }
 .pi-section-white a strong:hover,
 .pi-section-white a b:hover {
-  color: #008599;
+  color: #099555;
 }
 .pi-section-grey {
   color: #666e70;
@@ -1094,7 +1094,7 @@ pre code {
 .pi-section-grey .h5.pi-has-base-border:after,
 .pi-section-grey h6.pi-has-base-border:after,
 .pi-section-grey .h6.pi-has-base-border:after {
-  background: #0dc0c0;
+  background: #18ba60;
 }
 .pi-section-grey h1.pi-has-bg:after,
 .pi-section-grey .h1.pi-has-bg:after,
@@ -1136,7 +1136,7 @@ pre code {
 .pi-section-grey .h5 a.pi-link-dark:hover,
 .pi-section-grey h6 a.pi-link-dark:hover,
 .pi-section-grey .h6 a.pi-link-dark:hover {
-  color: #03afaf;
+  color: #18ba60;
 }
 .pi-section-grey h1 a.pi-link-white,
 .pi-section-grey .h1 a.pi-link-white,
@@ -1192,7 +1192,7 @@ pre code {
 .pi-section-grey .h5 a.pi-link-no-style:hover,
 .pi-section-grey h6 a.pi-link-no-style:hover,
 .pi-section-grey .h6 a.pi-link-no-style:hover {
-  color: #03afaf;
+  color: #18ba60;
 }
 .pi-section-grey abbr,
 .pi-section-grey acronym,
@@ -1202,16 +1202,16 @@ pre code {
   font-weight: 600;
 }
 .pi-section-grey a {
-  color: #03afaf;
+  color: #18ba60;
 }
 .pi-section-grey a:hover {
-  color: #008599;
+  color: #099555;
 }
 .pi-section-grey a.pi-link-dark {
   color: #21252b;
 }
 .pi-section-grey a.pi-link-dark:hover {
-  color: #03afaf;
+  color: #18ba60;
 }
 .pi-section-grey a.pi-link-white {
   color: #fff;
@@ -1223,13 +1223,13 @@ pre code {
   color: #666e70;
 }
 .pi-section-grey a.pi-link-no-style:hover {
-  color: #03afaf;
+  color: #18ba60;
 }
 .pi-section-grey .pi-link-dark a {
   color: #21252b;
 }
 .pi-section-grey .pi-link-dark a:hover {
-  color: #03afaf;
+  color: #18ba60;
 }
 .pi-section-grey .pi-link-white a {
   color: #fff;
@@ -1241,7 +1241,7 @@ pre code {
   color: #666e70;
 }
 .pi-section-grey .pi-link-no-style a:hover {
-  color: #03afaf;
+  color: #18ba60;
 }
 .pi-section-grey .lead-20,
 .pi-section-grey .lead-22,
@@ -1255,11 +1255,11 @@ pre code {
 }
 .pi-section-grey a strong,
 .pi-section-grey a b {
-  color: #03afaf;
+  color: #18ba60;
 }
 .pi-section-grey a strong:hover,
 .pi-section-grey a b:hover {
-  color: #008599;
+  color: #099555;
 }
 .pi-section-dark {
   color: #858d91;
@@ -1304,7 +1304,7 @@ pre code {
 .pi-section-dark .h5.pi-has-base-border:after,
 .pi-section-dark h6.pi-has-base-border:after,
 .pi-section-dark .h6.pi-has-base-border:after {
-  background: #0dc0c0;
+  background: #18ba60;
 }
 .pi-section-dark h1.pi-has-bg:after,
 .pi-section-dark .h1.pi-has-bg:after,
@@ -1346,7 +1346,7 @@ pre code {
 .pi-section-dark .h5 a.pi-link-dark:hover,
 .pi-section-dark h6 a.pi-link-dark:hover,
 .pi-section-dark .h6 a.pi-link-dark:hover {
-  color: #0dc0c0;
+  color: #18ba60;
 }
 .pi-section-dark h1 a.pi-link-white,
 .pi-section-dark .h1 a.pi-link-white,
@@ -1402,7 +1402,7 @@ pre code {
 .pi-section-dark .h5 a.pi-link-no-style:hover,
 .pi-section-dark h6 a.pi-link-no-style:hover,
 .pi-section-dark .h6 a.pi-link-no-style:hover {
-  color: #0dc0c0;
+  color: #18ba60;
 }
 .pi-section-dark abbr,
 .pi-section-dark acronym,
@@ -1412,16 +1412,16 @@ pre code {
   font-weight: 600;
 }
 .pi-section-dark a {
-  color: #0dc0c0;
+  color: #18ba60;
 }
 .pi-section-dark a:hover {
-  color: #008599;
+  color: #099555;
 }
 .pi-section-dark a.pi-link-dark {
   color: #ffffff;
 }
 .pi-section-dark a.pi-link-dark:hover {
-  color: #0dc0c0;
+  color: #18ba60;
 }
 .pi-section-dark a.pi-link-white {
   color: #fff;
@@ -1433,13 +1433,13 @@ pre code {
   color: #858d91;
 }
 .pi-section-dark a.pi-link-no-style:hover {
-  color: #0dc0c0;
+  color: #18ba60;
 }
 .pi-section-dark .pi-link-dark a {
   color: #ffffff;
 }
 .pi-section-dark .pi-link-dark a:hover {
-  color: #0dc0c0;
+  color: #18ba60;
 }
 .pi-section-dark .pi-link-white a {
   color: #fff;
@@ -1451,7 +1451,7 @@ pre code {
   color: #858d91;
 }
 .pi-section-dark .pi-link-no-style a:hover {
-  color: #0dc0c0;
+  color: #18ba60;
 }
 .pi-section-dark .lead-20,
 .pi-section-dark .lead-22,
@@ -1465,11 +1465,11 @@ pre code {
 }
 .pi-section-dark a strong,
 .pi-section-dark a b {
-  color: #0dc0c0;
+  color: #18ba60;
 }
 .pi-section-dark a strong:hover,
 .pi-section-dark a b:hover {
-  color: #008599;
+  color: #099555;
 }
 .pi-section-parallax {
   color: rgba(250, 250, 250, 0.7);
@@ -1514,7 +1514,7 @@ pre code {
 .pi-section-parallax .h5.pi-has-base-border:after,
 .pi-section-parallax h6.pi-has-base-border:after,
 .pi-section-parallax .h6.pi-has-base-border:after {
-  background: #0dc0c0;
+  background: #18ba60;
 }
 .pi-section-parallax h1.pi-has-bg:after,
 .pi-section-parallax .h1.pi-has-bg:after,
@@ -1556,7 +1556,7 @@ pre code {
 .pi-section-parallax .h5 a.pi-link-dark:hover,
 .pi-section-parallax h6 a.pi-link-dark:hover,
 .pi-section-parallax .h6 a.pi-link-dark:hover {
-  color: #0dc0c0;
+  color: #18ba60;
 }
 .pi-section-parallax h1 a.pi-link-white,
 .pi-section-parallax .h1 a.pi-link-white,
@@ -1612,7 +1612,7 @@ pre code {
 .pi-section-parallax .h5 a.pi-link-no-style:hover,
 .pi-section-parallax h6 a.pi-link-no-style:hover,
 .pi-section-parallax .h6 a.pi-link-no-style:hover {
-  color: #0dc0c0;
+  color: #18ba60;
 }
 .pi-section-parallax abbr,
 .pi-section-parallax acronym,
@@ -1622,16 +1622,16 @@ pre code {
   font-weight: 600;
 }
 .pi-section-parallax a {
-  color: #0dc0c0;
+  color: #18ba60;
 }
 .pi-section-parallax a:hover {
-  color: #008599;
+  color: #099555;
 }
 .pi-section-parallax a.pi-link-dark {
   color: #ffffff;
 }
 .pi-section-parallax a.pi-link-dark:hover {
-  color: #0dc0c0;
+  color: #18ba60;
 }
 .pi-section-parallax a.pi-link-white {
   color: #fff;
@@ -1643,13 +1643,13 @@ pre code {
   color: rgba(250, 250, 250, 0.7);
 }
 .pi-section-parallax a.pi-link-no-style:hover {
-  color: #0dc0c0;
+  color: #18ba60;
 }
 .pi-section-parallax .pi-link-dark a {
   color: #ffffff;
 }
 .pi-section-parallax .pi-link-dark a:hover {
-  color: #0dc0c0;
+  color: #18ba60;
 }
 .pi-section-parallax .pi-link-white a {
   color: #fff;
@@ -1661,7 +1661,7 @@ pre code {
   color: rgba(250, 250, 250, 0.7);
 }
 .pi-section-parallax .pi-link-no-style a:hover {
-  color: #0dc0c0;
+  color: #18ba60;
 }
 .pi-section-parallax .lead-20,
 .pi-section-parallax .lead-22,
@@ -1675,11 +1675,11 @@ pre code {
 }
 .pi-section-parallax a strong,
 .pi-section-parallax a b {
-  color: #0dc0c0;
+  color: #18ba60;
 }
 .pi-section-parallax a strong:hover,
 .pi-section-parallax a b:hover {
-  color: #008599;
+  color: #099555;
 }
 .pi-icon-circle,
 .pi-icon-square {
@@ -1688,13 +1688,13 @@ pre code {
   text-shadow: 0 1px 0 #fff;
 }
 .pi-icon-base {
-  background: #0dc0c0;
+  background: #18ba60;
   color: #fff;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
 }
 .pi-icon-dark {
   background: #2e343c;
-  color: #0cb9b9;
+  color: #18ba60;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
 }
 .pi-icon-white {
@@ -1706,24 +1706,24 @@ pre code {
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.07);
 }
 .pi-text-base {
-  color: #0dc0c0 !important;
+  color: #18ba60 !important;
 }
 .pi-text-base-dark {
-  color: #007688 !important;
+  color: #007841 !important;
 }
 .pi-text-bg-base {
-  background: #cef3f5;
-  color: #1d677e;
+  background: #c9f8d1;
+  color: #248c49;
 }
 ::selection {
-  background: #00919c;
+  background: #099555;
   color: #fff;
 }
 ::-moz-selection {
-  background: #00919c;
+  background: #099555;
   color: #fff;
 }
 ::-webkit-selection {
-  background: #00919c;
+  background: #099555;
   color: #fff;
 }

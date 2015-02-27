@@ -14,6 +14,8 @@
         <link rel="stylesheet" href="assets/auraTemplate/css/typo.css">
         <link rel="stylesheet" href="assets/auraTemplate/css/social.css">
         <link rel="stylesheet" href="assets/auraTemplate/css/slider.css">
+        <link rel="stylesheet" href="assets/auraTemplate/css/google-maps.css">
+        <link rel="stylesheet" href="assets/auraTemplate/3dParty/colorbox/colorbox.css">
         <meta name="google-site-verification" content="JRf6inkF5MRjitc4Fyc-jMwgxlurugNEm2WzUyZwkE8" />
     </head>
     <body class="pi-header-row-fixed">
@@ -191,7 +193,30 @@
                 </div>
 
                 <!-- Localização -->
+                <div class="pi-section-w pi-section-parallax" style="background-image: url(http://pi-themes.com/img_external/gallery/architecture.jpg); background-position: 50% 111px;">
+                    <div class="pi-texture" style="background: rgba(24, 28, 32, 0.8)"></div>
+                    <div class="pi-section pi-padding-top-90 pi-padding-bottom-80">
+                        <div class="pi-icon-box-vertical pi-text-center">
+                            <div class="pi-icon-box-icon pi-icon-box-icon-big pi-icon-box-icon-base">
+                                <i class="icon-phone"></i>
+                            </div>
+                            <h2 class="h1 pi-has-border pi-has-tall-border pi-has-short-border pi-text-shadow">
+                                (48) 9194-1196
+                            </h2>
+                            <p class="lead-18 pi-text-shadow pi-uppercase pi-weight-700 pi-text-white pi-margin-bottom-5">
+                                Rua da Pedra, 347 - Sala 802<br>
+                                Pedra Branca - Palhoça - Santa Catarina
+                            </p>
+                            <p class="lead-18 pi-text-shadow pi-uppercase pi-weight-700 pi-margin-bottom-30">
+                                <a href="mailto:contato@fiddus.com.br" class="mail-text uppercase oswald">contato@fiddus.com.br</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="pi-section-w pi-section-white">
+                    <div class="pi-google-map pi-no-margin-bottom" data-map-type="roadmap" data-map-zoom="16" data-map-style="base" data-map-coords="-27.622386;-48.677831" style="height: 400px;"></div>
+                </div>
 
             </div>
 
@@ -203,11 +228,23 @@
             <!--</div>-->
 
         </div>
+
         <script src="assets/auraTemplate/3dParty/jquery-1.11.0.min.js"></script>
         <script src="assets/auraTemplate/3dParty/jquery.easing.1.3.js"></script>
         <script src="assets/auraTemplate/3dParty/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/auraTemplate/3dParty/jquery.touchSwipe.min.js"></script>
         <script src="assets/auraTemplate/3dParty/jquery.scrollTo.min.js"></script>
-        <script src="assets/auraTemplate/scripts/pi.global.min.js"></script>
+        <script src="assets/auraTemplate/scripts/pi.googleMapStyles.min.js"></script>
+        <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+        <script src="assets/auraTemplate/3dParty/jquery.gmap.min.js"></script>
+        <script src="assets/auraTemplate/3dParty/requestAnimationFramePolyfill.min.js"></script>
+        <script src="assets/auraTemplate/3dParty/jquery.placeholder.js"></script>
+        <script src="assets/auraTemplate/3dParty/colorbox/jquery.colorbox-min.js"></script>
+        <script src="assets/auraTemplate/scripts/pi.global.js"></script>
+        <script src="assets/auraTemplate/scripts/pi.parallax.min.js"></script>
+        <script src="assets/auraTemplate/scripts/pi.init.parallax.min.js"></script>
+        <script src="assets/auraTemplate/scripts/pi.init.map.js"></script>
+
         <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

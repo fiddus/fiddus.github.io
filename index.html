@@ -601,8 +601,16 @@
                         </div>
                         <div class="pi-row">
                             <div class="pi-col-md-8 pi-col-md-offset-2">
-                                <form role="form" action="#" class="pi-contact-form"> <!-- todo: consertar action deste formulário, ver script handlers/formContact.php -->
+
+                                <form method="post" action="http://www18.locaweb.com.br/scripts/FormMail.pl">
+
+                                    <input type="hidden" name="email" value="contato@fiddus.com.br"/>
+                                    <input type="hidden" name="recipient" value="contato@fiddus.com.br"/>
+                                    <input type="hidden" name="subject" value="[contato-fiddus] mensagem enviada a partir de fiddus.com.br"/>
+                                    <input type="hidden" name="redirect" value="http://fiddus.com.br/test"/>
+
                                     <div class="pi-error-container"></div>
+
                                     <div class="pi-row pi-grid-small-margins">
                                         <div class="pi-col-xs-6">
                                             <div class="form-group">
@@ -610,7 +618,7 @@
                                                     <div class="pi-input-icon">
                                                         <i class="icon-user"></i>
                                                     </div>
-                                                    <input type="text" class="form-control input-lg form-control-name" id="inputName" placeholder="Nome">
+                                                    <input type="text" name="nome" class="form-control input-lg form-control-name" id="inputName" placeholder="Nome">
                                                 </div>
                                             </div>
                                             <div class="form-group">
@@ -618,7 +626,8 @@
                                                     <div class="pi-input-icon">
                                                         <i class="icon-mail"></i>
                                                     </div>
-                                                    <input type="email" class="form-control input-lg form-control-email" id="inputEmail" placeholder="Email">
+                                                    <!--<input type="email" class="form-control input-lg form-control-email" id="inputEmail" placeholder="Email">-->
+                                                    <input type="email" name="replyto" class="form-control input-lg form-control-email" id="inputEmail" placeholder="Email">
                                                 </div>
                                             </div>
                                             <div class="form-group">
@@ -626,7 +635,7 @@
                                                     <div class="pi-input-icon">
                                                         <i class="icon-briefcase"></i>
                                                     </div>
-                                                    <input type="text" class="form-control input-lg form-control-company-name" id="inputCompany" placeholder="Empresa">
+                                                    <input type="text" name="empresa" class="form-control input-lg form-control-company-name" id="inputCompany" placeholder="Empresa">
                                                 </div>
                                             </div>
                                         </div>
@@ -636,18 +645,21 @@
                                                     <div class="pi-input-icon">
                                                         <i class="icon-pencil"></i>
                                                     </div>
-                                                    <textarea class="form-control input-lg form-control-comments" id="inputMessage" placeholder="Como nós podemos te ajudar?" style="height: 178px"></textarea>
+                                                    <textarea name="mensagem" class="form-control input-lg form-control-comments" id="inputMessage" placeholder="Como nós podemos te ajudar?" style="height: 178px"></textarea>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
+
                                     <p class="pi-text-center">
-                                        <button type="submit" class="btn pi-btn-big pi-btn-base pi-btn-wide">
+                                        <!--<input type="submit" name="submit" value="Envia">-->
+                                        <button type="submit" name="Submit" value="Enviar Mensagem" class="btn pi-btn-big pi-btn-base pi-btn-wide">
                                             Enviar Mensagem
                                             <i class="icon-paper-plane" pi-icon-right></i>
                                         </button>
                                     </p>
                                 </form>
+
                             </div>
                         </div>
                     </div>

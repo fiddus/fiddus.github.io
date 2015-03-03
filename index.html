@@ -105,8 +105,8 @@
                             <!-- End logo -->
 
                             <!-- Menu -->
-                            <nav class="pi-row-block pi-pull-right">
-                                <ul class="pi-simple-menu pi-has-hover-border pi-full-height pi-hidden-sm">
+                            <nav id="pi-header-menu" class="pi-row-block pi-pull-right">
+                                <ul class="pi-simple-menu pi-has-hover-border pi-full-height pi-hidden-sm nav navbar-nav">
                                     <li class="active">
                                         <a href="#anchor-home" data-scroll-to="#anchor-home"><span>Home</span></a>
                                     </li>
@@ -499,7 +499,7 @@
                                 <p>
                                    Neste projeto, desenvolvemos um sistema para controle das Notas Promissórias da Autoescola Transytar, permitindo o controle dos recebimentos e organização do setor de cobranças da empresa.
                                 </p>
-                            </div>g
+                            </div>
                             <!-- End col 8 -->
 
                             <!-- Col 4 -->
@@ -557,28 +557,34 @@
                 </div>
 
                 <!-- Clientes e Parceiros -->
-                <div id="anchor-clients" class="pi-section-w pi-border-top-light pi-section-base pi-section-base-gradient piTooltips">
+                <div id="anchor-clients" class="pi-section-w pi-shadow-inside-top pi-section-dark piTooltips">
                     <div class="pi-texture" style="background: url(img/hexagon.png) repeat;"></div>
-                    <div class="pi-section">
+                    <div class="pi-section pi-padding-top-50 pi-padding-bottom-10">
 
-                        <!-- Intro text -->
-                        <p class="lead-30 pi-text-center">
-                            Nossos <span class="pi-text-dark">clientes</span> e <span class="pi-text-dark">parceiros</span>
-                        </p>
-
-                        <hr class="pi-divider-gap-50">
-                        <!-- End intro text -->
+                        <div class="pi-text-center fiddus-section-title">
+                            <h6 class="pi-uppercase pi-letter-spacing-3 pi-text-base">
+                                Clientes e Parceiros
+                            </h6>
+                        </div>
 
                         <!-- Logos gallery -->
-                        <div class="pi-row pi-liquid-col-2xs-2 pi-liquid-col-sm-5 pi-gallery">
+                        <div class="pi-row pi-liquid-col-lg-6 pi-liquid-col-sm-4 pi-liquid-col-xs-3 pi-liquid-col-2xs-2 pi-gallery pi-gallery-small-margins">
 
                             <!-- Logo -->
                             <div class="pi-gallery-item">
-                                <div class="pi-img-w pi-tooltip" data-placement="top" title="" data-original-title="Transytar">
-                                    <a href="#">
-					<span class="pi-img-opacity-70">
-						<img src="assets/img/logo-base.png" alt="">
-					</span>
+                                <div class="pi-img-w pi-tooltip pi-tooltip-base" data-placement="top" title="" data-original-title="Centro de Formação de Condutores">
+                                    <a href="#" class="pi-img-opacity-30">
+                                        <img src="assets/img/logo-base.png" alt="" class="pi-img-center">
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- End logo -->
+
+                            <!-- Logo -->
+                            <div class="pi-gallery-item">
+                                <div class="pi-img-w pi-tooltip pi-tooltip-base" data-placement="top" title="" data-original-title="Italian clothing company">
+                                    <a href="#" class="pi-img-opacity-30">
+                                        <img src="img_external/clients/diesel-4.png" alt="" class="pi-img-center">
                                     </a>
                                 </div>
                             </div>
@@ -743,6 +749,7 @@
         <script src="assets/auraTemplate/scripts/pi.init.tooltip.js"></script>
         <script src="assets/auraTemplate/scripts/pi.slider.js"></script>
         <script src="assets/auraTemplate/scripts/pi.init.slider.js"></script>
+        <script src="assets/auraTemplate/scripts/pi.init.scrollSpy.js"></script>
         <script src="assets/auraTemplate/scripts/pi.init.revolutionSlider.js"></script>
         <script src="assets/auraTemplate/scripts/pi.googleMapStyles.min.js"></script>
         <script src="http://maps.google.com/maps/api/js?sensor=false"></script>

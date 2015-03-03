@@ -14,3 +14,16 @@
     margin: 0 auto;
     margin-top: 20px;
 }
+
+.fiddus-logo {
+    max-width: 280px;
+    padding-top: 21px;
+}
+
+.pi-row-reduced .fiddus-logo {
+    padding-top: 10px;
+}
+
+.fiddus-section-green {
+    background-color: #509678;
+}

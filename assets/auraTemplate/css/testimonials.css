@@ -152,12 +152,12 @@
 .pi-section-base .pi-testimonial-content.pi-testimonial-base,
 .pi-section-dark .pi-testimonial-content.pi-testimonial-base,
 .pi-section-parallax .pi-testimonial-content.pi-testimonial-base {
-  background: #18ba60;
+  background: #509678;
   color: #ffffff;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
-  border-color: #18ba60;
+  border-color: #509678;
 }
 .pi-section-white .pi-testimonial-content.pi-testimonial-base:after,
 .pi-section-grey .pi-testimonial-content.pi-testimonial-base:after,

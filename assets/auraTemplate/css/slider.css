@@ -197,10 +197,10 @@
   bottom: -15px;
 }
 .pi-slider-page-active {
-  background: #18ba60;
+  background: #509678;
 }
 .pi-slider-pagination-inside .pi-slider-page-active {
-  background: #18ba60;
+  background: #509678;
   -webkit-box-shadow: inset 0 1px 0 rgba(250, 250, 250, 0.2), 0 1px 1px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: inset 0 1px 0 rgba(250, 250, 250, 0.2), 0 1px 1px rgba(0, 0, 0, 0.1);
   box-shadow: inset 0 1px 0 rgba(250, 250, 250, 0.2), 0 1px 1px rgba(0, 0, 0, 0.1);

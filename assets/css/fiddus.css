@@ -1,3 +1,23 @@
+@font-face {
+    font-family: novecento-bold;
+    src: url('../fonts/NOVECENTOWIDE-BOLD.OTF');
+}
+
+@font-face {
+    font-family: novecento-normal;
+    src: url('../fonts/NOVECENTOWIDE-NORMAL.OTF');
+}
+
+@font-face {
+    font-family: novecento-light;
+    src: url('../fonts/NOVECENTOWIDE-LIGHT.OTF');
+}
+
+@font-face {
+    font-family: droid-serif;
+    src: url('../fonts/DROIDSERIF-REGULAR.TTF');
+}
+
 .services-header {
     text-align: center;
     margin: 5px 0px 20px 0px;
@@ -26,4 +46,33 @@
 
 .fiddus-section-green {
     background-color: #509678;
+}
+
+.fiddus-section-title {
+    font-family: novecento-normal, sans-serif;
+    font-size: 18px;
+}
+
+.fiddus-heading {
+    font-family: novecento-normal, sans-serif;
+    font-size: 48px;
+}
+
+.fiddus-top-bar {
+    font-family: droid-serif, serif;
+    font-size: 14px;
+}
+
+.fiddus-sub-heading {
+    font-family: novecento-normal, serif;
+    font-size: 18px;
+}
+
+.fiddus-description {
+    font-family: droid-serif, serif;
+    font-size: 14px;
+}
+
+body {
+    font-family: novecento-normal, sans-serif;
 }

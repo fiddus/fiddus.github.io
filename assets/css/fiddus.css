@@ -35,10 +35,31 @@
     margin-top: 20px;
 }
 
-.fiddus-logo {
-    max-width: 280px;
-    padding-top: 21px;
+@media (max-width: 320px) {
+    .fiddus-logo {
+        max-width: 210px;
+        padding-top: 28px;
+    }
 }
+
+@media (min-width: 321px) and (max-width: 360px) {
+    .fiddus-logo {
+        max-width: 250px;
+        padding-top: 21px;
+    }
+}
+
+@media (min-width: 361px) {
+    .fiddus-logo {
+        max-width: 279px;
+        padding-top: 21px;
+    }
+}
+
+/*.fiddus-logo {*/
+    /*max-width: 280px;*/
+    /*padding-top: 21px;*/
+/*}*/
 
 .pi-row-reduced .fiddus-logo {
     padding-top: 10px;
@@ -55,7 +76,7 @@
 
 .fiddus-heading {
     font-family: novecento-normal, sans-serif;
-    font-size: 48px;
+    font-size: 40px;
 }
 
 .fiddus-top-bar {

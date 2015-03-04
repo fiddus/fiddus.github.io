@@ -7,8 +7,6 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-usemin');
     grunt.loadNpmTasks('grunt-contrib-imagemin');
-    grunt.loadNpmTasks('grunt-svgmin');
-    grunt.loadNpmTasks('grunt-asset-injector');
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-uglify');
@@ -58,11 +56,6 @@ module.exports = function (grunt) {
                     dest: 'build/font/'
                 }]
             }
-//            style: {
-//                expand: true,
-//                src: '**/*.css',
-//                dest: '.tmp/'
-//            }
         },
 
         usemin: {
@@ -95,54 +88,6 @@ module.exports = function (grunt) {
                 }]
             }
         },
-
-//        svgmin: {
-//            build: {
-//                files: [{
-//                    expand: true,
-//                    src: 'assets/**/.svg',
-//                    dest: 'build/'
-//                }]
-//            }
-//        },
-
-//
-
-//        injector: {
-//            options: {
-//
-//            },
-//            scripts: {
-//                options: {
-////                    transform: function (filePath) {
-////                        filePath = filePath.replace('/.tmp/', '');
-////                        return '<script src="' + filePath + '"></script>';
-////                    },
-//                    starttag: '<!-- injector:js -->',
-//                    endtag: '<!-- endinjector -->'
-//                },
-//                files: {
-//                    'index.html' : [
-//                        '{.tmp,assets}/**/*.js'
-//                    ]
-//                }
-//            },
-//            css: {
-//                options: {
-//                    transform: function (filePath) {
-//                        filePath = filePath.replace('/.tmp/', '');
-//                        return '<link rel="stylesheet" href="' + filePath + '">';
-//                    },
-//                    starttag: '<!-- injector:css -->',
-//                    endtag: '<!-- endinjector -->'
-//                },
-//                files: {
-//                    'index.html': [
-//                        'assets/**/*.css'
-//                    ]
-//                }
-//            }
-//        },
 
         'ftp-deploy': {
             build: {

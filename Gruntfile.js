@@ -32,7 +32,10 @@ module.exports = function (grunt) {
                     dot: true,
                     src: [
                         'index.html',
-                        '.htaccess'
+                        '.htaccess',
+                        '*.png',
+                        '*.ico',
+                        'manifest.json'
                     ],
                     dest: 'build/'
                 }, {
@@ -66,6 +69,9 @@ module.exports = function (grunt) {
 
         imagemin: {
             build: {
+                options: {
+                    optimizationLevel: 7
+                },
                 files: [{
                     expand: true,
                     src: 'assets/**/*.{png,jpg,jpeg,gif}',

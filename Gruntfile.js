@@ -103,7 +103,7 @@ module.exports = function (grunt) {
                     authKey: 'key1'
                 },
                 src: 'build',
-                dest: '/public_html/test'
+                dest: '/public_html/'
             }
         }
     });

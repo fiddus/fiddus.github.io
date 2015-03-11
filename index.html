@@ -731,7 +731,7 @@
                                     <input type="hidden" name="email" value="contato@fiddus.com.br"/>
                                     <input type="hidden" name="recipient" value="contato@fiddus.com.br"/>
                                     <input type="hidden" name="subject" value="[contato-fiddus] mensagem enviada a partir de fiddus.com.br"/>
-                                    <input type="hidden" name="redirect" value="http://fiddus.com.br/test"/>
+                                    <input type="hidden" name="redirect" value="http://fiddus.com.br/">
 
                                     <div class="pi-error-container"></div>
 
@@ -777,7 +777,7 @@
 
                                     <p class="pi-text-center">
                                         <!--<input type="submit" name="submit" value="Envia">-->
-                                        <button type="submit" name="Submit" value="Enviar Mensagem" class="btn pi-btn-big pi-btn-base pi-btn-wide">
+                                        <button id="enviar-contato" type="submit" name="Submit" value="Enviar Mensagem" class="btn pi-btn-big pi-btn-base pi-btn-wide">
                                             Enviar Mensagem
                                             <i class="icon-paper-plane" pi-icon-right></i>
                                         </button>
@@ -868,6 +868,12 @@
         <script src="assets/auraTemplate/scripts/pi.parallax.min.js"></script>
         <script src="assets/auraTemplate/scripts/pi.init.parallax.min.js"></script>
         <script src="assets/auraTemplate/scripts/pi.init.map.js"></script>
+
+        <script>
+            $('#enviar-contato').on('click', function () {
+                ga('send', 'event', 'Contato', 'Enviar');
+            });
+        </script>
 
         <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

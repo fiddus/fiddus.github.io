@@ -46,6 +46,13 @@ module.exports = function (grunt) {
                     expand: true,
                     flatten: true,
                     src: [
+                        'js/**/*'
+                    ],
+                    dest: 'build/js/'
+                }, {
+                    expand: true,
+                    flatten: true,
+                    src: [
                         'assets/fonts/**/*'
                     ],
                     dest: 'build/fonts/'

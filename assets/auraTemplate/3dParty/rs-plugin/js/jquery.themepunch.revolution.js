@@ -18,8 +18,6 @@
 		// OUR PLUGIN HERE :)
 		revolution: function(options) {
 
-
-
 				////////////////////////////////
 				// SET DEFAULT VALUES OF ITEM //
 				////////////////////////////////
@@ -106,28 +104,30 @@
 
 					return this.each(function() {
 
+
+
 						// REPORT SOME IMPORTAN INFORMATION ABOUT THE SLIDER
 						try{
-							console.groupCollapsed("Slider Revolution 4.5.7 Initialisation on "+jQuery(this).attr('id'));
-							console.groupCollapsed("Used Options:");
-							console.info(options);
-							console.groupEnd();
-							console.groupCollapsed("Tween Engine:")
+							//console.groupCollapsed("Slider Revolution 4.5.7 Initialisation on "+jQuery(this).attr('id'));
+							//console.groupCollapsed("Used Options:");
+							//console.info(options);
+							//console.groupEnd();
+							//console.groupCollapsed("Tween Engine:")
 						} catch(e) {}
 
 						// CHECK IF TweenLite IS LOADED AT ALL
 						if (punchgs.TweenLite==undefined) {
-						    try{ console.error("GreenSock Engine Does not Exist!");
-						    } catch(e) {}
+						    //try{ console.error("GreenSock Engine Does not Exist!");
+						    //} catch(e) {}
 							return false;
 						}
 
 						punchgs.force3D = true;
 
-						try{ console.info("GreenSock Engine Version in Slider Revolution:"+punchgs.TweenLite.version);
-						} catch(e) {
-
-						}
+						//try{ console.info("GreenSock Engine Version in Slider Revolution:"+punchgs.TweenLite.version);
+						//} catch(e) {
+                        //
+						//}
 
 						punchgs.TweenLite.lagSmoothing(1000,16);
 						punchgs.force3D = "true";

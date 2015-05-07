@@ -898,7 +898,7 @@ pre code {
 .pi-section-white .h5.pi-has-bg:after,
 .pi-section-white h6.pi-has-bg:after,
 .pi-section-white .h6.pi-has-bg:after {
-  background: url('../img/bg-heading.png');
+  background: url('img/bg-heading.png');
 }
 .pi-section-white h1 a.pi-link-dark,
 .pi-section-white .h1 a.pi-link-dark,
